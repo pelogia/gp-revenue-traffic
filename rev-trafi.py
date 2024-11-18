@@ -11,10 +11,10 @@ import pandas as pd
 import streamlit as st
 
 # Step 1: Streamlit app title
-st.title("Traffic and Revenue Analysis")
+st.title("Traffic and Revenue Overlap")
 
 # Step 2: Upload CSV file
-uploaded_file = st.file_uploader("Upload a CSV file with 'traffic' and 'revenue' columns:", type=['csv'])
+uploaded_file = st.file_uploader("Upload a CSV file with 'url', 'traffic' and 'revenue' columns. The summary below will split them into coverage groups and the export will have all the page data", type=['csv'])
 
 if uploaded_file:
     # Step 3: Load the CSV file into a pandas DataFrame
