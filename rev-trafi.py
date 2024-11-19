@@ -4,7 +4,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Step 1: Streamlit app title
-st.title("Traffic and Revenue Overlap with Enhanced Error Handling")
+st.title("Traffic and Revenue Overlap")
 
 # Step 2: Upload CSV file
 uploaded_file = st.file_uploader(
